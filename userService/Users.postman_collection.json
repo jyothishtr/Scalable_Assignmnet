@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "ab00fd16-9232-4aa2-aeb3-abc9785e67e5",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Coding Best Practices\",\n    \"published\":\"2022-01-01\",\n    \"author\":\"Jyothish TR\",\n    \"type\":\"Developent\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Coding - Best Practices",
+							"disabled": true
+						},
+						{
+							"key": "published",
+							"value": "2022-01-01",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "Jyothish TR",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "Software Development",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Coding Best Practices\",\n    \"published\":\"2022-01-01\",\n    \"author\":\"Jyothish TR\",\n    \"type\":\"Developent\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"query": [
+						{
+							"key": "title",
+							"value": "Coding - Best Practices",
+							"disabled": true
+						},
+						{
+							"key": "published",
+							"value": "2022-01-01",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "Jyothish TR",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "Software Development",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ONE",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Coding Best Practices\",\n    \"published\":\"2022-01-01\",\n    \"author\":\"Jyothish TR\",\n    \"type\":\"Developent\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"query": [
+						{
+							"key": "title",
+							"value": "Coding - Best Practices",
+							"disabled": true
+						},
+						{
+							"key": "published",
+							"value": "2022-01-01",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "Jyothish TR",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "Software Development",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Coding Best Practices\",\n    \"published\":\"2022-01-01\",\n    \"author\":\"Jyothish TR\",\n    \"type\":\"Developent\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/63700358035d769678b79a35",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"63700358035d769678b79a35"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Coding - Best Practices",
+							"disabled": true
+						},
+						{
+							"key": "published",
+							"value": "2022-01-01",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "Jyothish TR",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "Software Development",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Coding Best Practices\",\n    \"published\":\"2022-01-01\",\n    \"author\":\"Jyothish TR\",\n    \"type\":\"Developent\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/63700358035d769678b79a35",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"63700358035d769678b79a35"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Coding - Best Practices",
+							"disabled": true
+						},
+						{
+							"key": "published",
+							"value": "2022-01-01",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "Jyothish TR",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "Software Development",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

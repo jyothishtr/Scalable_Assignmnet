@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "u978441435_lib_root",
+    "password": "P@ssw0rd",
+    "database": "u978441435_lib_user",
+    "host": "2.57.89.1",
+    "dialect": "mysql",
+    "logging":false
+    
+  }
+}

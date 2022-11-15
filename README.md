@@ -1,2 +1,0 @@
-# Scalable_Assignmnet
-Assignment
